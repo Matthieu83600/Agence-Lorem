@@ -9,3 +9,12 @@ $(".carousel").carousel({
   interval: 2500,
   pause: true,
 });
+
+// Navbar Animation
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 30) {
+    $(".navbar").addClass("opaque");
+  } else {
+    $(".navbar").removeClass("opaque");
+  }
+});
