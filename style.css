@@ -169,3 +169,10 @@ h1 {
   background: rgba(6, 136, 206, 0.8);
   color: #fff;
 }
+/* Section Progress bar */
+#progress {
+  border-top: 1px dashed #000;
+  border-bottom: 1px solid #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
