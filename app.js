@@ -7,5 +7,5 @@ $(document).on("click", '[data-toggle="lightbox"]', function (event) {
 // Carousel
 $(".carousel").carousel({
   interval: 2500,
-  pause: null,
+  pause: true,
 });
